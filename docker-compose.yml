@@ -1,0 +1,7 @@
+version: '3.8'  # Update the version to a supported version, e.g., '3.8'
+
+services:
+  web:
+    image: diabloexodia/todoapp:latest
+    ports:
+      - "5000:5000"
